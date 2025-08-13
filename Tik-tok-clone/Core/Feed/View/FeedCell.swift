@@ -94,6 +94,15 @@ struct FeedCell: View {
                 .padding(.bottom, 120)
                 .padding(.horizontal)
             }
+        }.onTapGesture {
+            switch player.timeControlStatus {
+            case .paused:
+                player.play()
+            case .playing:
+                player.pause()
+            default:
+                break
+            }
         }
     }
 }

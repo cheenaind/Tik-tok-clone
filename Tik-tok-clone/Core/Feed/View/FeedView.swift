@@ -36,8 +36,7 @@ struct FeedView: View {
     }
     
     private func playVideoOnChangeScroll(postId: String?) {
-        guard let current = viewModel.posts.first(where: { $0.id == postId } )
-        else { return }
+        guard let postId, let current = viewModel.postById[postId] else { return }
         player.replaceCurrentItem(with: nil)
         
         let playerItem = AVPlayerItem(url: URL(string: current.videoURL)!)

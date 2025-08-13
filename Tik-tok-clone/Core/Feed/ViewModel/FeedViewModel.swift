@@ -8,8 +8,14 @@
 import Foundation
 
 class FeedViewModel: ObservableObject {
-    @Published var posts = [Post]()
+    @Published var posts = [Post]() {
+        didSet {
+            postById = Dictionary(uniqueKeysWithValues: posts.map { ($0.id, $0) })
+        }
+    }
     
+    private(set) var postById: [String: Post] = [:]
+
     init() {
         fetchPosts()
     }
