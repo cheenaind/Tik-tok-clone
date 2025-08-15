@@ -8,8 +8,8 @@
       "subtitle": "By Blender Foundation",
       "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself...",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
         "durationSec": 596
       },
       "author": {
@@ -235,8 +235,8 @@
       "subtitle": "By Blender Foundation",
       "description": "The first Blender Open Movie from 2006.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
         "durationSec": 653
       },
       "author": {
@@ -606,8 +606,8 @@
       "subtitle": "By Google",
       "description": "HBO GO now works with Chromecast...",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg",
         "durationSec": 15
       },
       "author": {
@@ -868,8 +868,8 @@
       "subtitle": "By Google",
       "description": "Introducing Chromecast... For when Batman's escapes aren't quite big enough.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
         "durationSec": 15
       },
       "author": {
@@ -1117,8 +1117,8 @@
       "subtitle": "By Blender Foundation",
       "description": "An independently produced short film.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
         "durationSec": 887
       },
       "author": {

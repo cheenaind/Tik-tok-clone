@@ -8,8 +8,8 @@
       "subtitle": "By Google",
       "description": "Introducing Chromecast. The easiest way to enjoy online video and music on your TV.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg",
         "durationSec": 15
       },
       "author": {
@@ -394,8 +394,8 @@
       "subtitle": "By Google",
       "description": "For the times that call for bigger joyrides.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
         "durationSec": 15
       },
       "author": {
@@ -701,8 +701,8 @@
       "subtitle": "By Google",
       "description": "For when you want to make Buster's big meltdowns even bigger.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg",
         "durationSec": 15
       },
       "author": {
@@ -1030,8 +1030,8 @@
       "subtitle": "By Blender Foundation",
       "description": "A VFX sci\u2011fi short made with Blender.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg",
         "durationSec": 734
       },
       "author": {
@@ -1240,8 +1240,8 @@
       "subtitle": "By Garage419",
       "description": "Testing the most requested car of 2010.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/VolkswagenGTIReview.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/VolkswagenGTIReview.jpg",
         "durationSec": 432
       },
       "author": {

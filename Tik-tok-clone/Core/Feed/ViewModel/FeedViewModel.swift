@@ -23,7 +23,15 @@ class FeedViewModel: ObservableObject {
     
     func fetchPosts() {
         Task {
-            posts = try await FileApiManager.shared.apiService.fetch(with: FeedRequestable.feed(page: 1))
+            do {
+                let feed: Feed = try await FileApiManager.shared.apiService.fetch(with: FeedRequestable.feed(page: 1))
+                
+                await MainActor.run { [weak self] in
+                    self?.posts = feed.items
+                }
+            } catch let error {
+                print(error)
+            }
         }
     }
 }
