@@ -26,9 +26,9 @@ struct FeedCell: View {
                 
                 HStack(alignment: .bottom) {
                     VStack(alignment: .leading) {
-                        Text("carlos.sainz")
+                        Text(feed.author.id)
                             .fontWeight(.semibold)
-                        Text("Rocket ship prepare")
+                        Text(feed.title)
                     }
                     .font(.subheadline)
                     .foregroundStyle(.white)

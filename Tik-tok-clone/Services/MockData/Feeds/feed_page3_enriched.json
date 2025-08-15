@@ -8,8 +8,8 @@
       "subtitle": "By Garage419",
       "description": "Daily videos from the 2010 Bullrun Live Rally.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/WeAreGoingOnBullrun.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/WeAreGoingOnBullrun.jpg",
         "durationSec": 271
       },
       "author": {
@@ -296,8 +296,8 @@
       "subtitle": "By Garage419",
       "description": "How far can $1,000 go for a car?",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/WhatCarCanYouGetForAGrand.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/WhatCarCanYouGetForAGrand.jpg",
         "durationSec": 324
       },
       "author": {
@@ -654,8 +654,8 @@
       "subtitle": "By Garage419",
       "description": "Taking the all-new Subaru Outback to the highest point we can find...",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg",
         "durationSec": 385
       },
       "author": {
@@ -1101,8 +1101,8 @@
       "subtitle": "By Blender Foundation",
       "description": "Big Buck Bunny tells the story of a giant rabbit with a heart bigger than himself...",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
         "durationSec": 596
       },
       "author": {
@@ -1302,8 +1302,8 @@
       "subtitle": "By Blender Foundation",
       "description": "A VFX sci\u2011fi short made with Blender.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg",
         "durationSec": 734
       },
       "author": {

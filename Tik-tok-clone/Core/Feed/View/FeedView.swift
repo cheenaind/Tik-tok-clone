@@ -20,6 +20,8 @@ struct FeedView: View {
                 ForEach(viewModel.posts) { feed in
                     FeedCell(feed: feed, player: player)
                         .id(feed.id)
+                        .onAppear {
+                        }
                 }
             }
             .scrollTargetLayout()
@@ -31,20 +33,44 @@ struct FeedView: View {
         .scrollTargetBehavior(.paging)
         .ignoresSafeArea()
         .onChange(of: scrollPosition) { oldValue, newValue in
-            playVideoOnChangeScroll(postId: newValue)
+            handleScrollAction(with: newValue)
+        }.onAppear {
+            viewModel.initialLoad()
         }
     }
     
-    private func playVideoOnChangeScroll(postId: String?) {
-        guard let postId, let current = viewModel.postById[postId] else { return }
+    private func handleScrollAction(with position: String?) {
+        guard let position else { return }
+        playVideoOnChangeScroll(position: position)
+        handlePagingScroll(with: position)
+    }
+    
+    private func playVideoOnChangeScroll(position: String) {
+        guard let currentVideo = viewModel.postById[position] else { return }
         player.replaceCurrentItem(with: nil)
         
-        let playerItem = AVPlayerItem(url: current.media.playbackUrl)
+        let playerItem = AVPlayerItem(url: currentVideo.media.playbackUrl)
         
         player.replaceCurrentItem(with: playerItem)
+    }
+    
+    private func handlePagingScroll(with position: String) {
+        guard let indexOf = viewModel.posts.firstIndex(where: { $0.id == position }) else { return }
+        
+        guard indexOf + 2 >= viewModel.posts.count, !viewModel.isLoading else { return }
+        
+        Task {
+            viewModel.loadNext()
+        }
     }
 }
 
 #Preview {
     FeedView()
+}
+
+extension Collection {
+    subscript(safe index: Index) -> Element? {
+        indices.contains(index) ? self[index] : nil
+    }
 }

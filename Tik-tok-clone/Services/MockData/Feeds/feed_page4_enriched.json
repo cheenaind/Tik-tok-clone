@@ -8,8 +8,8 @@
       "subtitle": "By Blender Foundation",
       "description": "The first Blender Open Movie from 2006.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
         "durationSec": 653
       },
       "author": {
@@ -422,8 +422,8 @@
       "subtitle": "By Blender Foundation",
       "description": "An independently produced short film.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
         "durationSec": 887
       },
       "author": {
@@ -700,8 +700,8 @@
       "subtitle": "By Garage419",
       "description": "Testing the most requested car of 2010.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/VolkswagenGTIReview.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/VolkswagenGTIReview.jpg",
         "durationSec": 432
       },
       "author": {
@@ -1102,8 +1102,8 @@
       "subtitle": "By Google",
       "description": "Introducing Chromecast. The easiest way to enjoy online video and music on your TV.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg",
         "durationSec": 15
       },
       "author": {
@@ -1501,8 +1501,8 @@
       "subtitle": "By Google",
       "description": "Introducing Chromecast... For when Batman's escapes aren't quite big enough.",
       "media": {
-        "playbackUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
-        "thumbUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
+        "playbackUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        "thumbUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
         "durationSec": 15
       },
       "author": {
