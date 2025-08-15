@@ -8,25 +8,22 @@
 import Foundation
 
 class FeedViewModel: ObservableObject {
-    @Published var posts = [Post]() {
+    @Published var posts = [FeedItem]() {
         didSet {
             postById = Dictionary(uniqueKeysWithValues: posts.map { ($0.id, $0) })
         }
     }
     
-    private(set) var postById: [String: Post] = [:]
+    private(set) var postById: [String: FeedItem] = [:]
 
     init() {
+        
         fetchPosts()
     }
     
     func fetchPosts() {
-        posts = [
-            .init(id: UUID().uuidString, videoURL: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"),
-            .init(id: UUID().uuidString, videoURL: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"),
-            .init(id: UUID().uuidString, videoURL: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"),
-            .init(id: UUID().uuidString, videoURL: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"),
-
-        ]
+        Task {
+            posts = try await FileApiManager.shared.apiService.fetch(with: FeedRequestable.feed(page: 1))
+        }
     }
 }

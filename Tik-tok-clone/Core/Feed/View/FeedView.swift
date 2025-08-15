@@ -17,9 +17,9 @@ struct FeedView: View {
     var body: some View {
         ScrollView {
             LazyVStack(spacing: 0) {
-                ForEach(viewModel.posts) { post in
-                    FeedCell(post: post, player: player)
-                        .id(post.id)
+                ForEach(viewModel.posts) { feed in
+                    FeedCell(feed: feed, player: player)
+                        .id(feed.id)
                 }
             }
             .scrollTargetLayout()
@@ -39,7 +39,8 @@ struct FeedView: View {
         guard let postId, let current = viewModel.postById[postId] else { return }
         player.replaceCurrentItem(with: nil)
         
-        let playerItem = AVPlayerItem(url: URL(string: current.videoURL)!)
+        let playerItem = AVPlayerItem(url: current.media.playbackUrl)
+        
         player.replaceCurrentItem(with: playerItem)
     }
 }

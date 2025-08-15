@@ -25,7 +25,7 @@ struct Tik_tok_cloneApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            FeedView()
         }
     }
 }

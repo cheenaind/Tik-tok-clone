@@ -9,11 +9,11 @@ import SwiftUI
 import AVKit
 
 struct FeedCell: View {
-    let post: Post
+    let feed: FeedItem
     let player: AVPlayer
     
-    init(post: Post, player: AVPlayer) {
-        self.post = post
+    init(feed: FeedItem, player: AVPlayer) {
+        self.feed = feed
         self.player = player
     }
     
@@ -107,6 +107,6 @@ struct FeedCell: View {
     }
 }
 
-#Preview {
-    FeedCell(post: Post(id: UUID().uuidString, videoURL: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"), player: AVPlayer())
-}
+//#Preview {
+//    FeedCell(post: Post(id: UUID().uuidString, videoURL: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"), player: AVPlayer())
+//}
