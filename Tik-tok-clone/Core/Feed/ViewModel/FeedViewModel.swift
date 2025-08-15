@@ -10,6 +10,10 @@ import Foundation
 class FeedViewModel: ObservableObject {
     @Published var isLoading: Bool = false
     
+    var preLastFeedId: String? {
+        return posts[safe: posts.count - 1]?.id
+    }
+    
     @Published var posts = [FeedItem]() {
         didSet {
             postById = Dictionary(uniqueKeysWithValues: posts.map { ($0.id, $0) })

@@ -20,8 +20,6 @@ struct FeedView: View {
                 ForEach(viewModel.posts) { feed in
                     FeedCell(feed: feed, player: player)
                         .id(feed.id)
-                        .onAppear {
-                        }
                 }
             }
             .scrollTargetLayout()
@@ -55,9 +53,7 @@ struct FeedView: View {
     }
     
     private func handlePagingScroll(with position: String) {
-        guard let indexOf = viewModel.posts.firstIndex(where: { $0.id == position }) else { return }
-        
-        guard indexOf + 2 >= viewModel.posts.count, !viewModel.isLoading else { return }
+        guard position == viewModel.posts.last!.id else { return }
         
         Task {
             viewModel.loadNext()
