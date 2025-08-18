@@ -18,6 +18,7 @@ struct CustomVideoPlayer: UIViewControllerRepresentable {
         controller.exitsFullScreenWhenPlaybackEnds = true
         controller.allowsPictureInPicturePlayback = true
         controller.videoGravity = .resizeAspectFill
+        controller.showsTimecodes = true
         return controller
     }
     

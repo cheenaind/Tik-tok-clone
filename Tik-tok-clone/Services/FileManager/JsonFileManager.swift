@@ -14,7 +14,7 @@ enum FileManagerError: Error {
 final class JsonFileManager: FileManagerProtocol {
     internal var fileExtension: FileExtension { .json }
     
-    func read(from requestable: any Requestable) async throws -> Data {
+    func read(from requestable: any FileRequestable) async throws -> Data {
         guard let url = Bundle.main.url(forResource: requestable.url, withExtension: requestable.path) else {
             throw FileManagerError.fileNotFound
         }

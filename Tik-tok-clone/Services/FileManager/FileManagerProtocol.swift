@@ -17,6 +17,5 @@ protocol Requestable {
 }
 
 protocol FileManagerProtocol {
-    
-    func read(from requestable: Requestable) async throws  -> Data
+    func read(from requestable: FileRequestable) async throws -> Data
 }
