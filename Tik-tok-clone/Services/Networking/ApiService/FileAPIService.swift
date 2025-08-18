@@ -9,20 +9,15 @@ import Foundation
 
 final class FileAPIService: APIServiceProtocol {
     private let networkService: NetworkServiceProtocol
-    private let decoder: JSONDecoder
+    private let decoder: ResponseDecoderProtocol
     
-    init(networkService: NetworkServiceProtocol, decoder: JSONDecoder) {
+    init(networkService: NetworkServiceProtocol, decoder: ResponseDecoderProtocol) {
         self.networkService = networkService
         self.decoder = decoder
     }
     
     func fetch<T>(with requestable: any Requestable) async throws -> T where T : Decodable {
         let data = try await networkService.makeRequest(with: requestable)
-        
-        do {
-            return try decoder.decode(T.self, from: data)
-        } catch {
-            throw error
-        }
+        return try await decoder.decode(data)
     }
 }
